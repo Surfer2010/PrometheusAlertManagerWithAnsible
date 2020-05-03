@@ -1,8 +1,11 @@
 [prometheus]
-18.222.106.129
+localhost ansible_connection=local
 
 [node_exporter]
-18.224.63.194
+localhost ansible_connection=local
 
 [alertmanager]
-18.216.247.122
+localhost ansible_connection=local
+
+[grafana]
+localhost ansible_connection=local
